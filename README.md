@@ -2,6 +2,8 @@
 
 This repo showcases how you can build your own UI to connect users to [embedded wallets](https://portal.thirdweb.com/embedded-wallet) using email or google sign in.
 
+![screenshot](screenshot.png)
+
 ## Getting Started
 
 Clone this project or create a new project using this template:
