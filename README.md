@@ -1,9 +1,13 @@
+# Embedded Wallets with Custom UI
+
+This repo showcases how you can build your own UI to connect users to [embedded wallets](https://portal.thirdweb.com/embedded-wallet) using email or google sign in.
+
 ## Getting Started
 
-Create a project using this example:
+Clone this project or create a new project using this template:
 
 ```bash
-npx thirdweb create --template next-typescript-starter
+npx thirdweb create --template embedded-wallet-custom-ui
 ```
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
@@ -15,18 +19,11 @@ On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this 
 
 To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
 
-## Deploy to IPFS
-
-Deploy a copy of your application to IPFS using the following command:
-
-```bash
-yarn deploy
-```
-
 ## Learn More
 
 To learn more about thirdweb and Next.js, take a look at the following resources:
 
+- [thirdweb Embedded Wallet Documentation](https://portal.thirdweb.com/embedded-wallet) - learn about our Embedded Wallets.
 - [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
 - [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about our JavaScript/TypeScript SDK.
 - [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
