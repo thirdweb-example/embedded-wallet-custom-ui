@@ -4,6 +4,10 @@ This repo showcases how you can build your own UI to connect users to [embedded 
 
 ![screenshot](screenshot.png)
 
+## Live Demo
+
+[Try out the live demo here](https://embedded-wallet-custom-ui.thirdweb-preview.com/)
+
 ## Getting Started
 
 Clone this project or create a new project using this template:
@@ -20,6 +24,22 @@ On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this 
 ## Environment Variables
 
 To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
+
+## Runing the project
+
+Install dependencies
+
+```bash
+yarn install
+```
+
+Run project
+
+```bash
+yarn dev
+```
+
+Open your browser at http://localhost:3000.
 
 ## Learn More
 
